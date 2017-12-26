@@ -1,0 +1,165 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	background: rgba(0,0,0,1.00) !important;
+	width: 100%;
+}
+.topbox {
+	min-height: 500px;
+	background: rgba(7,7,7,1.00);
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+	color: rgba(249,249,249,1.00);
+	background-image: url(file:///C|/Users/asus/Documents/HazemWeb/png/fence.jpg);
+	border-bottom: 2px solid rgba(0,0,0,0.2);
+}
+.topbox p {
+	font-family: tulpen-one !important;
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: extra-expanded;
+	letter-spacing: 0.3em;
+	font-size: 40px;
+	margin-left: 5%;
+	color: rgba(255,255,255,1.00);
+}
+.ptext {
+	font-family: tulpen-one !important;
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: extra-expanded;
+	letter-spacing: 0.3em;
+	font-size: 40px;
+	margin-left: 5%;
+	color: rgba(255,255,255,1.00);
+}
+.topbox a {
+	text-decoration : none;
+	color : #000;
+}
+.button {
+	background-color: transparent; /* Green */
+	border: none;
+	color: white;
+	padding-top: 15px;
+	padding-right: 32px;
+	padding-left: 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	margin-top: 4px;
+	margin-right: 2px;
+	margin-left: 2px;
+	cursor: pointer;
+	padding-bottom: 0px;
+	height: 100px;
+}
+.button5 {
+	color: black;
+}
+.button5:hover {
+	border-bottom: 2px solid rgba(192,7,10,1.00);
+}
+.navbar {
+	background-color: rgba(0,0,0,0.5) !important;
+	border: transparent !important;
+}
+h2 {
+	font-family: tulpen-one !important;
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: extra-expanded;
+	letter-spacing: 0.2em;
+	font-size: 50px;
+	color: rgba(255,255,255,1.00);
+}
+.bts {
+	min-width: 400px;
+	text-align: center;
+}
+.circletops {
+	display: block;
+	margin: auto;
+}
+.circletops:hover {
+	-webkit-transform: scale(1.05);
+	-ms-transform: scale(1.05);
+	transform: scale(1.05);
+	transition: all 0.3s ease-in-out;
+}
+.readable {
+	margin-top: 5%;
+	text-align: center;
+	height: 50px;
+	background-color: black;
+	z-index: 0;
+	opacity: 0.5;
+}
+.row {
+	overflow: hidden;
+}
+.secondrow {
+	border-top: 2px solider rgba(0,0,0,1.00);
+	min-height: 500px;
+	/* Permalink - use to edit and share this gradient: http://colorzilla.com/gradient-editor/#b5bdc8+0,828c95+36,28343b+100;Grey+Black+3D */
+	background: rgb(181,189,200); /* Old browsers */
+	background: -moz-linear-gradient(top, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* FF3.6-15 */
+	background: -webkit-linear-gradient(top, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* Chrome10-25,Safari5.1-6 */
+	background: linear-gradient(to bottom, rgba(181,189,200,1) 0%, rgba(130,140,149,1) 36%, rgba(40,52,59,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#b5bdc8', endColorstr='#28343b', GradientType=0 ); /* IE6-9 */
+	-webkit-filter: brightness(110%) contrast(110%);
+	filter: brightness(110%) contrast(110%);
+}
+.semicircle {
+	padding-top: 8%;
+	height: 100px;
+	width: 200px;
+	border-radius: 200px 200px 0 0;
+	background: rgba(0,0,0,0.83);
+	display: block;
+	margin: auto;
+}
+.semicircle2 {
+	height: 100px;
+	width: 200px;
+	border-radius: 0 0 200px 200px;
+	background: rgba(0,0,0,0.83);
+	display: block;
+	margin: auto;
+	color: rgba(255,255,255,1.00);
+	margin-left: 22%;
+}
+.h2b {
+	margin-top: -3% !important;
+}
+.readable2 {
+	text-align: center;
+	height: 50px;
+	background-color: black;
+	z-index: 0;
+	opacity: 0.5;
+	margin-left: -10%;
+}
+.ptext_sm {
+	font-family: tulpen-one !important;
+	font-style: normal;
+	font-weight: 400;
+	font-stretch: extra-expanded;
+	letter-spacing: 0.1em;
+	font-size: 26px;
+	margin-left: 5%;
+	color: rgba(255,255,255,1.00);
+	padding-left: 4%;
+}
+.readable3 {
+	min-height: 280px;
+	background-color: black;
+	opacity: 0.65;
+	z-index: 0;
+	margin-left: 0%;
+}
+
+footer{
+	background:rgba(0,0,0,1.00);
+	color:rgba(255,255,255,1.00);
+}
